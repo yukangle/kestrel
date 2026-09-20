@@ -1,0 +1,23 @@
+{
+  "name": "kestrel-agent",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A personal, local-first AI frontier agent with Electron and CLI clients.",
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.json && node scripts/copy-renderer.mjs",
+    "start:cli": "tsx src/cli.ts",
+    "start:desktop": "npm run build && electron dist/electron/main.js",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit -p tsconfig.test.json"
+  },
+  "dependencies": {
+    "electron": "^38.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.0",
+    "vitest": "^3.2.0"
+  }
+}

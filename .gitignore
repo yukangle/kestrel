@@ -3,3 +3,6 @@ dist/
 .DS_Store
 *.log
 .kestrel/
+
+# Local date-prefixed design notes and development artifacts.
+????_??_??_*

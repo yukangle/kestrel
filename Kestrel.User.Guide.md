@@ -131,9 +131,9 @@ The original design document includes a five-area desktop concept: workspace
 and session rail, session timeline, composer, inspector, and runtime status.
 The repository keeps the current mock screen as an SVG:
 
-![Current Kestrel desktop mock UI](2026_09_19_aster_agent_ui_mock.svg)
+![Current Kestrel desktop mock UI](mock.svg)
 
-Source: [`2026_09_19_aster_agent_ui_mock.svg`](2026_09_19_aster_agent_ui_mock.svg)
+Source: [`mock.svg`](mock.svg)
 
 The mock is a design reference. The implemented Electron shell currently
 contains a smaller status screen and does not yet implement the mock's live
